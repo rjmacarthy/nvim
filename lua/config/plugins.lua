@@ -8,7 +8,7 @@ return {
     priority = 1000,
     config = function()
       -- load the colorscheme here
-      vim.cmd([[colorscheme vscode]])
+      vim.cmd([[colorscheme visual_studio_code]])
       require("config.colorscheme")
     end,
   },
