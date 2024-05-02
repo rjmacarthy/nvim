@@ -8,10 +8,11 @@ return {
     priority = 1000,
     config = function()
       -- load the colorscheme here
-      vim.cmd([[colorscheme tokyonight]])
+      vim.cmd([[colorscheme visual_studio_code]])
       require("config.colorscheme")
     end,
   },
+  { "askfiy/visual_studio_code" },
   { "nvim-lua/plenary.nvim" },
   {
     "nvim-tree/nvim-web-devicons",
