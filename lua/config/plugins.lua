@@ -8,10 +8,11 @@ return {
     priority = 1000,
     config = function()
       -- load the colorscheme here
-      vim.cmd([[colorscheme visual_studio_code]])
+      vim.cmd([[colorscheme vscode]])
       require("config.colorscheme")
     end,
   },
+  { "Mofiqul/vscode.nvimMofiqul/vscode.nvim" },
   { "askfiy/visual_studio_code" },
   { "nvim-lua/plenary.nvim" },
   {
